@@ -1,5 +1,11 @@
+## Install Chrome
 sudo apt update
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt --fix-broken install
 google-chrome --version
+
+
+## Install chrome driver
+pip install chromedriver-py==122.0.6261.128
+pip show chromedriver-py
